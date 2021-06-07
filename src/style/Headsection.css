@@ -1,0 +1,37 @@
+
+
+
+.Maindiv{
+ 
+
+  display: flex;
+  justify-content:space-around;
+  height: 100px;
+ padding-top: 20px;
+
+  
+  
+}
+
+.blankspace{
+    padding-left: 28px;
+}
+
+.blankspacelast{
+    padding-right: 20px;
+}
+.img{
+  
+    max-height: 85%;
+}
+
+.text{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.text:hover{
+   text-decoration: none;
+   color: #2874f0;
+}

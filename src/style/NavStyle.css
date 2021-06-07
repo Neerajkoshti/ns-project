@@ -1,0 +1,154 @@
+
+.navheader{
+ 
+    height: 55px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    color:#f0f0f0;
+    line-height: 1.0;
+}
+
+ #flipkartlogo{
+    padding-left: 200px;
+ }
+ #flipkartimg{
+        padding-top: 8px;
+    }
+ #exploreplus{
+     color:aliceblue;
+ }
+ #exploreplusspan, #exploreplus{
+    font-size: 12px;
+    font-style: italic;
+ }
+ #exploreplusspan{
+     color: rgb(255, 255, 1);
+     
+ }
+ #search{
+     margin-left: 15px;
+   margin-top: 8px; 
+  }
+ #searchinput{
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  width: 500px;
+  height: 35px;
+  background:white;
+  outline: none;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+ }
+ #searchicon{
+    
+  padding: 10px;
+  background: white;
+  color:blue;
+  font-size: 14px;
+  cursor: pointer;
+    border: none;
+    padding-bottom:9px;
+    height: 35px;
+    border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+ }
+ 
+ #logindiv{
+   margin-left: 200px;
+   margin-top: 10px;
+
+ }
+
+ .loginbutton{
+  color: #2874f0;
+  font-weight: 500;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 32px;
+  padding: 5px 40px;
+  border: 1px solid #dbdbdb;
+
+ }
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  /* box-shadow: red; */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+}
+.dropdown-content a:hover{
+  text-decoration:none;
+}
+
+
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.logindiv:hover .dropdown-content {display: block;}
+
+
+ .moredropdown{
+  margin-left: 50px;
+  margin-top: 20px;
+
+ }
+ .moredropbtn{
+   
+  background-color: #2874f0;
+  color: white;
+  border: none;
+  font-size: 17px;
+  font-family: Roboto,Arial,sans-serif;
+  font-style:normal;
+ }
+
+
+
+ 
+.dropdown-content a:hover {background-color: #ddd;}
+
+.moredropdown:hover .dropdown-content {display: block;}
+
+
+.cart{
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+
+.cartlink{
+  color: white;
+  font-size: 17px;
+  font-family: Roboto,Arial,sans-serif;
+  text-decoration: none;
+  
+}
+.cartlink:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
